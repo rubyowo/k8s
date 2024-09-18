@@ -34,6 +34,7 @@
           in
             with pkgs; [
               kubectl
+              kluctl
               k9s
               custom-helmfile
               custom-kubernetes-helm
