@@ -1,0 +1,7 @@
+helmChart:
+  repo: https://helm.strrl.dev/
+  chartName: cloudflare-tunnel-ingress-controller
+  chartVersion: "0.0.13"
+  updateConstraints: "0.0.13"
+  releaseName: cloudflare-tunnel-ingress-controller
+  namespace: cloudflare-tunnel-ingress-controller

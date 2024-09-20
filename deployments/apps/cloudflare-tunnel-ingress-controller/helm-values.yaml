@@ -1,0 +1,9 @@
+cloudflare:
+  secretRef:
+    name: cloudflare-tunnel-ingress-controller-secret
+    accountIDKey: account_id
+    tunnelNameKey: tunnel_name
+    apiTokenKey: api_token
+
+ingressClass:
+  isDefaultClass: true

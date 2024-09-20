@@ -1,0 +1,12 @@
+deployments:
+  - path: apps/kluctl
+  - path: apps/whoami
+  - path: apps/cloudflare-tunnel-ingress-controller
+  - git:
+      url: https://github.com/kluctl/kluctl.git
+      subDir: install/controller
+      ref:
+        tag: v2.25.1
+
+vars:
+  - file: secrets.yaml

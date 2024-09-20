@@ -39,9 +39,11 @@
               custom-helmfile
               custom-kubernetes-helm
               sops
+              age
             ];
           env = {
             KUBECONFIG = "/home/rei/kubeconfig/kubeconfig.yaml";
+            SOPS_AGE_KEY_FILE = "/home/rei/kubeconfig/kluctl.age";
           };
         };
       }

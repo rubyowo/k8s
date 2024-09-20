@@ -1,0 +1,21 @@
+apiVersion: gitops.kluctl.io/v1beta1
+kind: KluctlDeployment
+metadata:
+  name: kluctl
+  namespace: kluctl-system
+spec:
+  interval: 1m
+  source:
+    git:
+      url: https://github.com/rubyowo/k8s.git
+      path: "./deployments"
+  decryption:
+    provider: sops
+    secretRef:
+      name: kluctl-sops-keys
+
+  timeout: 2m
+  target: selene
+  prune: true
+  delete: false
+  manual: false

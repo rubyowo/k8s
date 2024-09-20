@@ -1,0 +1,6 @@
+keys:
+  - &rei B6F68516EEB9A7D9FA50087DE0BDFAF7AE9E0531
+  - &kluctl age1nsmw9r2pe7p4hets2xyewdje326dlp9fxhrsq0taxwzq4wj93y4qul3ww2
+creation_rules:
+  # - pgp: *rei
+  - age: *kluctl
