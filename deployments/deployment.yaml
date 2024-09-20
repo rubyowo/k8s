@@ -4,6 +4,7 @@ deployments:
   - path: apps/whoami
   - path: apps/grafana
   - path: apps/prometheus
+  - path: apps/loki
   - git:
       url: https://github.com/kluctl/kluctl.git
       subDir: install/controller
