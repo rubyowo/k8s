@@ -1,7 +1,8 @@
 deployments:
   - path: apps/kluctl
-  - path: apps/whoami
   - path: apps/cloudflare-tunnel-ingress-controller
+  - path: apps/whoami
+  - path: apps/grafana
   - git:
       url: https://github.com/kluctl/kluctl.git
       subDir: install/controller

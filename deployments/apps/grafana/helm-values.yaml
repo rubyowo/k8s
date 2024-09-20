@@ -1,0 +1,7 @@
+persistence:
+  type: pvc
+  enabled: true
+
+grafana.ini:
+  server:
+    root_url: https://grafana.whoison.top
