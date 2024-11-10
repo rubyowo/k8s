@@ -2,8 +2,9 @@ deployments:
   - path: apps/kluctl
   - path: apps/cloudflare-tunnel-ingress-controller
   - path: apps/whoami
-  - path: apps/grafana
-  - path: apps/prometheus
+  # - path: apps/forgejo
+  # - path: apps/grafana
+  # - path: apps/prometheus
   # - path: apps/loki
   - git:
       url: https://github.com/kluctl/kluctl.git
