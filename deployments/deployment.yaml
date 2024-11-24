@@ -1,7 +1,7 @@
 deployments:
   - path: apps/kluctl
   - path: apps/cloudflare-tunnel-ingress-controller
-  - path: apps/whoami
+  # - path: apps/whoami
   # - path: apps/forgejo
   # - path: apps/grafana
   # - path: apps/prometheus

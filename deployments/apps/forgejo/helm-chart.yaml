@@ -1,6 +1,6 @@
 helmChart:
   repo: oci://code.forgejo.org/forgejo-helm/forgejo
-  chartVersion: 8.2.2
-  updateConstraints: "8.*.*"
+  chartVersion: 10.1.1
+  updateConstraints: "10.x.x"
   releaseName: forgejo
   namespace: forgejo
